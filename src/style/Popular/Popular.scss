@@ -1,0 +1,55 @@
+#popular {
+  padding-top: 100px;
+
+  .popular {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &--block {
+      margin: 20px;
+      border: 2px dashed grey;
+      width: 16rem;
+      height: 34rem;
+      transition: .7s;
+
+      &:hover {
+
+        transform: translateY(-10px);
+        //transform: scale(1.1);
+        box-shadow: 0 0 30px red;
+
+      }
+
+      img {
+        position: absolute;
+        opacity: 0.9;
+        width: 222px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 17px;
+      }
+
+      h3 {
+
+        padding: 0 17px;
+        margin-top: 143%;
+      }
+    }
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+
+    button {
+      background: #51c1ff;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 4px;
+      margin: 20px 5px;
+      border: none;
+    }
+  }
+}

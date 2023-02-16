@@ -1,0 +1,42 @@
+@import "style/Header/Header";
+@import "style/Popular/Popular";
+@import "style/TopRated/Top-Rated";
+@import "style/MovieCard/MovieCard";
+@import "style/Page/MovieInform";
+@import "style/Actors/Actors";
+@import "style/Page/ActorsInform";
+
+body {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header--buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //padding: 50px 0;
+  button {
+    width: 110px;
+    margin: 0 10px;
+    padding: 7px 0;
+    border-radius: 20px;
+    transition: .7s;
+    background: transparent;
+    color: #7CBA72;
+    border: 2px solid #7CBA72;
+
+  }
+
+  button:hover {
+    background: #7CBA72;
+    color: white;
+  }
+}
+html, body{
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,35 @@
+.popular--block {
+  margin: 20px;
+  border: 2px dashed grey;
+  width: 16rem;
+  height: 36rem;
+  transition: .7s;
+
+  &:hover{
+    transform: translateY(-10px);
+    //transform: scale(1.1);
+    -webkit-box-shadow:20px -23px 22px 0.5px #5ae84b;
+    -moz-box-shadow:20px -23px 22px 0.5px #5ae84b ;
+    box-shadow:20px -23px 22px 0.5px #5ae84b ;
+
+  }
+
+  img {
+    width: 222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 17px;
+    transition: .7s;
+
+    &:hover{
+      //transform: translateY(-10px);
+      //transform: scale(1.1);
+
+    }
+  }
+
+  h3 {
+    padding: 0 17px;
+  }
+}

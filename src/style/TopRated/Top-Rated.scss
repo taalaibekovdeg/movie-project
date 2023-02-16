@@ -1,0 +1,46 @@
+#topRated {
+  padding-top: 150px;
+
+  .topRated {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &--block {
+
+      margin: 20px;
+      border: 2px dashed grey;
+      width: 19rem;
+      height: 30rem;
+      //&:hover{
+      //  transform: translateY(-10px);
+      //  //transform: scale(1.1);
+      //  box-shadow:0 0 30px red;
+      //
+      //}
+
+      img {
+        width: 222px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 17px;
+      }
+
+      h3 {
+        padding: 0 17px;
+      }
+    }
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+
+    button {
+      padding: 0 10px;
+      background: red;
+      margin: 0 10px;
+    }
+  }
+}
